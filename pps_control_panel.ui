@@ -1,0 +1,575 @@
+<?xml version='1.0' encoding='utf-8'?>
+<interface>
+  <object class="ttk.Frame" id="Frame_1">
+    <property name="height">200</property>
+    <property name="width">200</property>
+    <layout>
+      <property name="column">0</property>
+      <property name="propagate">True</property>
+      <property name="row">0</property>
+      <property name="sticky">nw</property>
+    </layout>
+    <child>
+      <object class="ttk.Labelframe" id="Labelframe_3">
+        <property name="height">200</property>
+        <property name="text" translatable="yes">PPS Control Panel</property>
+        <property name="width">200</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">0</property>
+        </layout>
+        <child>
+          <object class="ttk.Labelframe" id="Labelframe_5">
+            <property name="height">200</property>
+            <property name="text" translatable="yes">Power Output</property>
+            <property name="width">200</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+              <property name="sticky">n</property>
+            </layout>
+            <child>
+              <object class="ttk.Label" id="Label_1">
+                <property name="text" translatable="yes">Volts (V)</property>
+                <layout>
+                  <property name="column">0</property>
+                  <property name="propagate">True</property>
+                  <property name="row">0</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Label" id="Label_2">
+                <property name="text" translatable="yes">Current (A)</property>
+                <layout>
+                  <property name="column">1</property>
+                  <property name="propagate">True</property>
+                  <property name="row">0</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Label" id="Label_3">
+                <property name="text" translatable="yes">Power (W)</property>
+                <layout>
+                  <property name="column">2</property>
+                  <property name="propagate">True</property>
+                  <property name="row">0</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Label" id="Label_4">
+                <property name="font">{Arial} 20 {}</property>
+                <property name="text" translatable="yes">0.00V</property>
+                <layout>
+                  <property name="column">0</property>
+                  <property name="propagate">True</property>
+                  <property name="row">1</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Label" id="Label_5">
+                <property name="font">{Arial} 20 {}</property>
+                <property name="text" translatable="yes">0.00A</property>
+                <layout>
+                  <property name="column">1</property>
+                  <property name="propagate">True</property>
+                  <property name="row">1</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Label" id="Label_6">
+                <property name="font">{Arial} 20 {}</property>
+                <property name="text" translatable="yes">0.00W</property>
+                <layout>
+                  <property name="column">2</property>
+                  <property name="propagate">True</property>
+                  <property name="row">1</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Checkbutton" id="Checkbutton_1">
+                <property name="state">normal</property>
+                <property name="text" translatable="yes">Display</property>
+                <layout>
+                  <property name="column">0</property>
+                  <property name="propagate">True</property>
+                  <property name="row">2</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Checkbutton" id="Checkbutton_2">
+                <property name="text" translatable="yes">Display</property>
+                <layout>
+                  <property name="column">1</property>
+                  <property name="propagate">True</property>
+                  <property name="row">2</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Checkbutton" id="Checkbutton_3">
+                <property name="text" translatable="yes">Display</property>
+                <layout>
+                  <property name="column">2</property>
+                  <property name="propagate">True</property>
+                  <property name="row">2</property>
+                </layout>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Labelframe" id="Labelframe_6">
+            <property name="height">200</property>
+            <property name="text" translatable="yes">Device Status</property>
+            <property name="width">200</property>
+            <layout>
+              <property name="column">1</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+              <property name="sticky">new</property>
+            </layout>
+            <child>
+              <object class="ttk.Label" id="Label_7">
+                <property name="text" translatable="yes">Batt Voltage (V)</property>
+                <layout>
+                  <property name="column">0</property>
+                  <property name="propagate">True</property>
+                  <property name="row">0</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Label" id="Label_8">
+                <property name="text" translatable="yes">Device Uptime</property>
+                <layout>
+                  <property name="column">1</property>
+                  <property name="propagate">True</property>
+                  <property name="row">0</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Label" id="Label_9">
+                <property name="font">{Arial} 12 {}</property>
+                <property name="text" translatable="yes">0.00V</property>
+                <layout>
+                  <property name="column">0</property>
+                  <property name="propagate">True</property>
+                  <property name="row">1</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Label" id="Label_10">
+                <property name="font">{Arial} 12 {}</property>
+                <property name="text" translatable="yes">0m 0s</property>
+                <layout>
+                  <property name="column">1</property>
+                  <property name="propagate">True</property>
+                  <property name="row">1</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Button" id="Button_1">
+                <property name="text" translatable="yes">ShutDown</property>
+                <layout>
+                  <property name="column">0</property>
+                  <property name="propagate">True</property>
+                  <property name="row">2</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Button" id="Button_2">
+                <property name="text" translatable="yes">PowerOn</property>
+                <layout>
+                  <property name="column">1</property>
+                  <property name="propagate">True</property>
+                  <property name="row">2</property>
+                </layout>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Labelframe" id="Labelframe_7">
+            <property name="height">200</property>
+            <property name="text" translatable="yes">Serial Port</property>
+            <property name="width">200</property>
+            <layout>
+              <property name="column">1</property>
+              <property name="propagate">True</property>
+              <property name="row">1</property>
+              <property name="sticky">new</property>
+            </layout>
+            <child>
+              <object class="ttk.Combobox" id="Combobox_1">
+                <layout>
+                  <property name="column">0</property>
+                  <property name="propagate">True</property>
+                  <property name="row">1</property>
+                  <property name="sticky">w</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Button" id="Button_3">
+                <property name="text" translatable="yes">Connect</property>
+                <layout>
+                  <property name="column">1</property>
+                  <property name="propagate">True</property>
+                  <property name="row">1</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Entry" id="Entry_1">
+                <property name="state">disabled</property>
+                <property name="text" translatable="yes">57600</property>
+                <layout>
+                  <property name="column">0</property>
+                  <property name="propagate">True</property>
+                  <property name="row">2</property>
+                  <property name="sticky">w</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Label" id="Label_11">
+                <property name="text" translatable="yes">Baudrate</property>
+                <layout>
+                  <property name="column">1</property>
+                  <property name="propagate">True</property>
+                  <property name="row">2</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Label" id="Label_12">
+                <property name="text" translatable="yes">Port Info:</property>
+                <layout>
+                  <property name="column">0</property>
+                  <property name="columnspan">2</property>
+                  <property name="propagate">True</property>
+                  <property name="row">0</property>
+                  <property name="sticky">ew</property>
+                </layout>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Labelframe" id="Labelframe_8">
+            <property name="height">200</property>
+            <property name="text" translatable="yes">Set Levels</property>
+            <property name="width">200</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="propagate">True</property>
+              <property name="row">1</property>
+              <property name="sticky">ew</property>
+            </layout>
+            <child>
+              <object class="ttk.Entry" id="Entry_2">
+                <property name="text" translatable="yes">5.00</property>
+                <layout>
+                  <property name="column">0</property>
+                  <property name="propagate">True</property>
+                  <property name="row">0</property>
+                  <property name="sticky">w</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Entry" id="Entry_3">
+                <property name="text" translatable="yes">2.0</property>
+                <layout>
+                  <property name="column">0</property>
+                  <property name="propagate">True</property>
+                  <property name="row">1</property>
+                  <property name="sticky">w</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Entry" id="Entry_4">
+                <property name="text" translatable="yes">10.0</property>
+                <layout>
+                  <property name="column">0</property>
+                  <property name="propagate">True</property>
+                  <property name="row">2</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Button" id="Button_4">
+                <property name="text" translatable="yes">Set Voltage (V)</property>
+                <layout>
+                  <property name="column">1</property>
+                  <property name="propagate">True</property>
+                  <property name="row">0</property>
+                  <property name="sticky">ew</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Button" id="Button_5">
+                <property name="text" translatable="yes">Set Current Limit (A)</property>
+                <layout>
+                  <property name="column">1</property>
+                  <property name="propagate">True</property>
+                  <property name="row">1</property>
+                  <property name="sticky">ew</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Button" id="Button_6">
+                <property name="text" translatable="yes">Set Power Limit (W)</property>
+                <layout>
+                  <property name="column">1</property>
+                  <property name="propagate">True</property>
+                  <property name="row">2</property>
+                  <property name="sticky">ew</property>
+                </layout>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Labelframe" id="Labelframe_9">
+            <property name="height">200</property>
+            <property name="text" translatable="yes">Device Settings</property>
+            <property name="width">200</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="columnspan">2</property>
+              <property name="propagate">True</property>
+              <property name="row">2</property>
+              <property name="rowspan">1</property>
+              <property name="sticky">ew</property>
+            </layout>
+            <child>
+              <object class="ttk.Checkbutton" id="Checkbutton_4">
+                <property name="text" translatable="yes">Enable HV LED Indication</property>
+                <layout>
+                  <property name="column">0</property>
+                  <property name="ipadx">10</property>
+                  <property name="propagate">True</property>
+                  <property name="row">0</property>
+                  <property name="sticky">w</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Checkbutton" id="Checkbutton_5">
+                <property name="text" translatable="yes">Enable OLED Display</property>
+                <layout>
+                  <property name="column">0</property>
+                  <property name="ipadx">24</property>
+                  <property name="propagate">True</property>
+                  <property name="row">1</property>
+                  <property name="sticky">w</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Checkbutton" id="Checkbutton_6">
+                <property name="text" translatable="yes">Disable Charging Protection</property>
+                <layout>
+                  <property name="column">0</property>
+                  <property name="propagate">True</property>
+                  <property name="row">2</property>
+                  <property name="sticky">w</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Label" id="Label_13">
+                <property name="font">{arial} 12 {}</property>
+                <property name="text" translatable="yes">0.00W</property>
+                <layout>
+                  <property name="column">1</property>
+                  <property name="ipadx">9</property>
+                  <property name="propagate">True</property>
+                  <property name="row">0</property>
+                  <property name="sticky">e</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Button" id="Button_7">
+                <property name="text" translatable="yes">Display Power Limit</property>
+                <layout>
+                  <property name="column">2</property>
+                  <property name="ipadx">4</property>
+                  <property name="propagate">True</property>
+                  <property name="row">0</property>
+                  <property name="sticky">e</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Label" id="Label_14">
+                <property name="font">{arial} 12 {}</property>
+                <property name="text" translatable="yes">0.00A</property>
+                <layout>
+                  <property name="column">1</property>
+                  <property name="ipadx">11</property>
+                  <property name="propagate">True</property>
+                  <property name="row">1</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Button" id="Button_8">
+                <property name="text" translatable="yes">Display Current Limit</property>
+                <layout>
+                  <property name="column">2</property>
+                  <property name="ipadx">0</property>
+                  <property name="propagate">True</property>
+                  <property name="row">1</property>
+                  <property name="sticky">e</property>
+                </layout>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Labelframe" id="Labelframe_4">
+        <property name="height">200</property>
+        <property name="text" translatable="yes">Plotting &amp; Logging Options</property>
+        <property name="width">200</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">1</property>
+          <property name="sticky">ew</property>
+        </layout>
+        <child>
+          <object class="ttk.Button" id="Button_9">
+            <property name="text" translatable="yes">Choose Log File</property>
+            <layout>
+              <property name="column">5</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Entry" id="Entry_5">
+            <property name="text" translatable="yes">File path</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="columnspan">5</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+              <property name="sticky">ew</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Button" id="Button_10">
+            <property name="text" translatable="yes">Start Logging</property>
+            <layout>
+              <property name="column">2</property>
+              <property name="propagate">True</property>
+              <property name="row">1</property>
+              <property name="rowspan">3</property>
+              <property name="sticky">ns</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Entry" id="Entry_6">
+            <property name="text" translatable="yes">10</property>
+            <property name="width">14</property>
+            <layout>
+              <property name="column">5</property>
+              <property name="propagate">True</property>
+              <property name="row">1</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Checkbutton" id="Checkbutton_7">
+            <property name="text" translatable="yes">Voltage</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="propagate">True</property>
+              <property name="row">1</property>
+              <property name="sticky">w</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Checkbutton" id="Checkbutton_8">
+            <property name="text" translatable="yes">Current</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="propagate">True</property>
+              <property name="row">2</property>
+              <property name="sticky">w</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Checkbutton" id="Checkbutton_9">
+            <property name="text" translatable="yes">Power</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="propagate">True</property>
+              <property name="row">3</property>
+              <property name="sticky">w</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Button" id="Button_11">
+            <property name="text" translatable="yes">Show Plot</property>
+            <layout>
+              <property name="column">1</property>
+              <property name="propagate">True</property>
+              <property name="row">1</property>
+              <property name="rowspan">3</property>
+              <property name="sticky">ns</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Button" id="Button_12">
+            <property name="text" translatable="yes">Set Display Update Interval</property>
+            <layout>
+              <property name="column">4</property>
+              <property name="propagate">True</property>
+              <property name="row">1</property>
+              <property name="sticky">e</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Label" id="Label_16">
+            <property name="text" translatable="yes">milliseconds</property>
+            <layout>
+              <property name="column">5</property>
+              <property name="propagate">True</property>
+              <property name="row">2</property>
+            </layout>
+          </object>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
